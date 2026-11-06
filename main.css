@@ -1,12 +1,54 @@
 body {
-  margin:40px auto;
-  max-width:650px;
-  line-height:1.6;
-  font-size:18px;
-  color:#444;
-  padding:0 10px;
+  margin: 40px auto;
+  max-width: 650px;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #444;
+  padding: 0 10px;
 }
 
-h1,h2,h3{
-  line-height:1.2
+h1, h2, h3 {
+  line-height: 1.2;
+}
+
+a {
+  color: #245c53;
+}
+
+.site-header {
+  margin-bottom: 2rem;
+}
+
+.site-nav {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.site-nav a {
+  text-decoration: none;
+}
+
+.site-nav a[aria-current="page"] {
+  font-weight: bold;
+}
+
+.post-card {
+  margin-top: 2rem;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.post-card h2 {
+  margin: 0.25rem 0 0.5rem;
+}
+
+.post-card h2 a {
+  text-decoration: none;
+}
+
+.post-date {
+  margin-bottom: 0.25rem;
+  color: #666;
+  font-size: 0.9rem;
 }
