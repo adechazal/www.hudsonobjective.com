@@ -32,22 +32,22 @@ a {
   font-weight: bold;
 }
 
-.post-card {
+.post-card, .event-card {
   margin-top: 2rem;
   padding: 1.25rem 1.5rem;
   border: 1px solid #ddd;
   border-radius: 6px;
 }
 
-.post-card h2 {
+.post-card h2, .event-card h2 {
   margin: 0.25rem 0 0.5rem;
 }
 
-.post-card h2 a {
+.post-card h2 a, .event-card h2 a {
   text-decoration: none;
 }
 
-.post-date {
+.post-date, .event-date {
   margin-bottom: 0.25rem;
   color: #666;
   font-size: 0.9rem;
@@ -61,4 +61,26 @@ a {
   border-radius: 6px;
   object-fit: cover;
   object-position: center 55%;
+}
+
+.signup-form {
+  display: block;
+  width: 100%;
+  min-height: 900px;
+  border: 0;
+  margin: 1rem 0;
+}
+
+address {
+  font-style: normal;
+}
+
+@media (max-width: 480px) {
+  .site-nav {
+    flex-wrap: wrap;
+  }
+
+  .post-card, .event-card {
+    padding: 1rem;
+  }
 }
