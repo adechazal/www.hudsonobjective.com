@@ -75,6 +75,29 @@ address {
   font-style: normal;
 }
 
+.events-page {
+  max-width: 1100px;
+}
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+  gap: 1.25rem;
+  align-items: stretch;
+  margin-top: 2rem;
+}
+
+.events-grid .event-card {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.events-grid .event-link {
+  margin-top: auto;
+  padding-top: 0.75rem;
+}
+
 @media (max-width: 480px) {
   .site-nav {
     flex-wrap: wrap;
