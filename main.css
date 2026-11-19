@@ -32,18 +32,18 @@ a {
   font-weight: bold;
 }
 
-.post-card, .event-card {
+.post-card, .event-card, .resource-card {
   margin-top: 2rem;
   padding: 1.25rem 1.5rem;
   border: 1px solid #ddd;
   border-radius: 6px;
 }
 
-.post-card h2, .event-card h2 {
+.post-card h2, .event-card h2, .resource-card h2 {
   margin: 0.25rem 0 0.5rem;
 }
 
-.post-card h2 a, .event-card h2 a {
+.post-card h2 a, .event-card h2 a, .resource-card h2 a {
   text-decoration: none;
 }
 
@@ -104,7 +104,7 @@ address {
     flex-wrap: wrap;
   }
 
-  .post-card, .event-card {
+  .post-card, .event-card, .resource-card {
     padding: 1rem;
   }
 }
